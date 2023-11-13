@@ -1,0 +1,12 @@
+[requires]
+imgui/1.85
+giflib/5.2.1
+
+[generators]
+cmake
+
+[imports]
+./res/bindings, imgui_impl_sdlrenderer.h -> ../bindings
+./res/bindings, imgui_impl_sdlrenderer.cpp -> ../bindings
+./res/bindings, imgui_impl_sdl.h -> ../bindings
+./res/bindings, imgui_impl_sdl.cpp -> ../bindings
